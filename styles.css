@@ -88,7 +88,6 @@ h2 {
     padding: 100px 120px;
     font-size: 18px;
     color: #e5e7eb;
-
 }
 
 
@@ -129,5 +128,29 @@ h2 {
     max-width: 150px;
     color: #1f2937;
     filter: contrast(50%);
+}
 
+.quote {
+    height: 350px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspirational-quote
+{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    filter: contrast(50%);
+    max-width: 600px;
+    margin-top: 12px;
+}
+
+.quote p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 400px;
 }
