@@ -47,6 +47,7 @@ h2 {
 .navbar .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
  
 .navbar a:hover {
@@ -191,4 +192,12 @@ h2 {
 
 .action-text p {
     filter: contrast(75%);
+}
+
+.footer {
+    color: #f9faf8;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
