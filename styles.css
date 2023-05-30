@@ -98,3 +98,36 @@ h2 {
     line-height: 1;
 }
 
+.boxes {
+ height: 400px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 48px 0;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.actual-image-goes-here {
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.image p {
+    text-align: center;
+    margin-top: 12px;
+    max-width: 150px;
+    color: #1f2937;
+    filter: contrast(50%);
+
+}
